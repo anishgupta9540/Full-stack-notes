@@ -7,3 +7,20 @@
 // git checkout CMG.2026.40
 // git fetch origin
 // git reset --hard origin/CMG.2026.40
+
+// change from staging unstaging in git
+// git restore --staged .
+// git restore --staged filename
+
+// git revert
+// git revert--abort
+
+// git push
+// git push origin master
+// note -> if updtream are same we can do git push and git push origin branchname
+
+// git pull
+// git merge
+// git rebase
+
+// mostely we are facing merge conflict in git 
