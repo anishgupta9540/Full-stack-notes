@@ -1,16 +1,15 @@
-note
 To create array
-Object.values()
-Object.keys()
-Object.entries()
-Object.hasOwnProperty()
+  Object.values()
+  Object.keys()
+  Object.entries()
+  Object.hasOwnProperty()
 
 To create Object
-Object.assign({},array)
-spread operator 
-Object.from Entries()
-Array.prototype.reduce()
-for each and for of loops
+  Object.assign({},array)
+  spread operator 
+  Object.from Entries()
+  Array.prototype.reduce()
+  for each and for of loops
 
 const result=Array.from(arrayLike,mapFn,thisArg) 
 const result=new Set([1,2,2,2,2,4]) it will return object to convert into array use Array.from(result)
@@ -19,9 +18,6 @@ Remove duplicate using new Set method and map it
 
 what is new Map in js 
 what is Array.from()
-
-
-
 -----------------------------------------------------------
 const users = [
   { name: "Anish", age: 25 },
