@@ -392,9 +392,12 @@ undefined
 Check answer
 
 Best interview tip: First understand whether the data is an array or an object. Then remember that arrays use positions, objects use property names, and nested destructuring follows the object's structure.
-----------------------------------------------------------------------------------
-Good question
 
+# JavaScript Nested Destructuring Example
+
+## Code
+
+```javascript
 const employee = {
   id: 101,
   personal: {
@@ -416,3 +419,37 @@ console.log(name);        // Arun
 console.log(age);         // 25
 console.log(companyName); // TCS
 console.log(location);    // Chennai
+```
+
+## Output
+
+```text
+Arun
+25
+TCS
+Chennai
+```
+
+## Explanation
+
+* `personal: { name, age }` extracts `name` and `age` from the `personal` object.
+* `company: { name: companyName, location }` extracts `name` and `location` from the `company` object.
+* `name: companyName` renames the company's `name` property to the variable `companyName`.
+
+## Important Interview Point
+
+Both `personal` and `company` contain a property named `name`. If you want to extract both values into the same scope, use different variable names to avoid a duplicate variable declaration error.
+
+### Syntax
+
+```javascript
+propertyName: newVariableName
+```
+
+Example:
+
+```javascript
+company: { name: companyName }
+```
+
+Here, `name` is the original object property, and `companyName` is the variable that stores its value.
