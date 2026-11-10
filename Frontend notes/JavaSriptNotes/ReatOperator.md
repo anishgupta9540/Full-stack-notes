@@ -1,0 +1,1 @@
+The JavaScript rest operator (...) gathers multiple individual elements into a single compressed entity, such as an array or an object. While it shares the exact same three-dot syntax as the spread operator, it performs the exact opposite function: rest condenses values together, whereas spread expands them

@@ -2,13 +2,13 @@ what is virtual dom
 what is shadow dom //imp
 what is dom diffing
 what is hook 
-	useState
-	useRef
-	useReducer
-	useContext
-	useMemo
-	useContext
-	useCallback
+      useState
+      useRef
+      useReducer
+      useContext
+      useMemo
+      useContext
+      useCallback
 what is React Portal //imp
 what is component composition 
 what is error boundry //imp
